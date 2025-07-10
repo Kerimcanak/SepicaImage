@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { DragDropContext } from '@hello-pangea/dnd';
-import categoryTray from './components/categoryTray';
+import CategoryTray from './components/categoryTray';
 
 function App() {
   const [categories, setCategories] = useState([
