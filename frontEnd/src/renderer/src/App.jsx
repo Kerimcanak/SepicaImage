@@ -1,5 +1,6 @@
 import Versions from './components/Versions'
 import electronLogo from './assets/electron.svg'
+import { useState } from 'react'
 
 function App() {
   const ipcHandle = () => window.electron.ipcRenderer.send('ping')
